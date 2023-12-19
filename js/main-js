@@ -8,6 +8,11 @@ window.onscroll = function () {
         nav.classList.remove("scroll-on");
     }
 }
+// header
+let changeIcon = function (icon) {
+  icon.classList.toggle("fa-times");
+};
+changeIcon = (icon) => icon.classList.toggle("fa-times");
 
 // nav hide 
 let navBar = document.querySelectorAll('.nav-link');
